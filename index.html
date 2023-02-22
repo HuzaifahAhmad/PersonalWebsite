@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Huzaifah Ahmad</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="logo.png">
+
+</head>
+
+<body>
+    <div id="main-container">
+        <!-- Start -->
+        <!-- NavBar  -->
+        <header>
+            <nav id="nav-section">
+                <a href="#hero-section"><h4 id="logo">Huzaifah Ahmad</h4></a>
+                <ul id="nav-list">
+                    <li><a href="#about-me-section">About Me </a></li>
+                    <li><a href="#project-section">Projects</a></li>
+                    <li><a href="#skill-section">Skills</a></li>
+                </ul>
+                <a  href="#contact-section"><button id="nav-contact-btn">Contact</button></a>
+            </nav>
+
+            
+            <!-- hamburger menu -->
+            <div class="hamburger-menu">
+                <div class="mobile-header">
+                    <a href="#hero-section"><h4 id="mobile-logo">Huzaifah Ahmad</h4></a>
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                </div>
+                <nav class="mobile-nav">
+                    <li class="mobile-btns">
+                        <a href="#hero-section">Home</a>
+                        <a href="#about-me-section">About Me </a>
+                        <a href="#project-section">Projects</a>
+                        <a href="#skill-section">Skills</a>
+                        <a href="#contact-section" >Contact</a>
+                    </li>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Hero section -->
+        <div id="hero-section">
+                <h1 id="name">Huzaifah Ahmad</h1>
+                <h4 id="subtitle">An aspiring front-end developer that loves making interactive websites</h4>
+                <a  href="#contact-section"><button id="contact-me-btn">Contact Me!</button></a>
+    
+        </div>
+    
+        <!-- About Me Section -->
+        <div id="about-me-section">
+            <div id="about-me-container">
+                <h1 id="about-title">About Me</h1>
+                <p id="about-paragraph">
+                    I am a motivated computer science enthusiast with a 
+                    focus on problem-solving and growth. 
+                    I am prepared to meet challenges with a creative and 
+                    innovative problem-solving approach. My collaborative 
+                    nature allows me to work harmoniously. Driven by an unwavering 
+                    commitment to personal growth and self-improvement, 
+                    I am always striving to enhance my 
+                    knowledge and skill set, which I believe to be an 
+                    indispensable asset to any team.</p>
+            </div>
+        </div>
+    
+        <!-- Project Section -->
+        <div id="project-section">
+            <div id="project-container">
+                <h1 id="project-title">Projects</h1>
+    
+                <div id="project-list">
+                    <div class="project-item" >
+                        <img class="project-img" src="projectImages/passwordGenerator.png">
+                        <br>
+                        <br>
+                        <h3>Password Generator</h3>
+                        <br>
+                        <br>
+                        <p>Developed a password generator that creates strong and secure passwords using HTML, CSS, and JavaScript</p>
+                        <div class="project-link-img-container">
+                            <img class="project-link-img" src="projectImages/githubProject.png" onclick="window.open('https://github.com/HuzaifahAhmad/password-generator', '_blank');">
+                            <img class="project-link-img" src="projectImages/Vector-1.png" onclick="window.open('https://passwordgeneratorproject2.netlify.app/', '_blank');">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-img" src="projectImages/chromExtension.png">
+                        <br>
+                        <br>
+                        <h3>Chrome Extension</h3>
+                        <br>
+                        <br>
+                        <p>Programmed a chrome extension that stores inputs and tab links with a click of a button which is stored in local storage. This is achieved by using the Chrome Tabs API</p>
+                        <div class="project-link-img-container">
+                            <img class="project-link-img" src="projectImages/githubProject.png" onclick="window.open('https://github.com/HuzaifahAhmad/chrome-extension', '_blank');">
+                            <img class="project-link-img" src="projectImages/Vector-1.png" onclick="window.open('https://www.youtube.com/watch?v=VD71fsrBeSU&ab_channel=Grimhopp3r', '_blank');">
+                        </div>
+                    </div>
+                    <div class="project-item" >
+                        <img class="project-img" src="projectImages/unitConversion.png" >
+                        <br>
+                        <br>
+                        <h3>Unit Conversion</h3>
+                        <br>
+                        <br>
+                        <p>Developed a unit conversion program that allows users to calculate from metric to imperial</p>
+                        <div class="project-link-img-container">
+                            <img class="project-link-img" src="projectImages/githubProject.png" onclick="window.open('https://github.com/HuzaifahAhmad/unit-conversion');">
+                            <img class="project-link-img" src="projectImages/Vector-1.png" onclick="window.open('https://unitconversionproject1.netlify.app/', '_blank');">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <!-- Skill Section -->
+        <div id="skill-section">
+            <div id="skill-container">
+                <h1 id="skill-title">Skills</h1>
+                <div id="skill-list">
+                    <div class="skill-item">
+                        <img src="skillsImages/htmlIcon.png" class="skill-img">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/css.png" class="skill-img">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/javascript.png" class="skill-img">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/react.png" class="skill-img">
+                        <p>React</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/python.png" class="skill-img">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/c.png" class="skill-img">
+                        <p>C</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/turing.png" class="skill-img">
+                        <p>Turing</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/github.png" class="skill-img">
+                        <p>Github</p>
+                    </div>            
+                    <div class="skill-item">
+                        <img src="skillsImages/visual-studio-code-icon.png" class="skill-img">
+                        <p>VSC</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="skillsImages/figma.png" class="skill-img">
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Me Section -->
+        <div id="contact-section">
+            <form onsubmit="sendEmail(); reset(); return false ">
+                <h4 id="contact-title">Contact Me</h4>
+                <input type="text" id="contact-name" placeholder="Name" required>
+                <input type="email" id="contact-email" placeholder="Email" required>
+                <input type="text" id="contact-subject" placeholder="Subject" required>
+                <textarea id="contact-message" rows="6" placeholder="Leave your message" required></textarea>
+                <button type="submit ">Send Message</button>
+            </form>
+        </div>
+    
+        <!-- Footer -->
+        <footer>
+            <div id="footer-container">
+                <h4 id="copy-right">© 2023 Huzaifah Ahmad. All rights reserved</h4>
+                <div id="footer-img-container">
+                    <img id="linkedin-footer" src="footerImages/linkedinFooter.png" width="33" height="33" onclick="window.open('https://www.linkedin.com/in/huzaifah-ahmad-074a63253/', '_blank');">
+                    <img id="github-footer" src="footerImages/githubFooter.png" width="30" height="30" onclick="window.open('https://github.com/HuzaifahAhmad', '_blank');">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"></script>  
+</body>
+</html>
