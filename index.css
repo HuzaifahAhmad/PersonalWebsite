@@ -215,6 +215,7 @@ html {
     line-height: 2;
     font-size: 1.2rem;
     width:48rem;
+    margin: 0rem auto;
 }
 
 /* Project Section */
@@ -231,7 +232,7 @@ html {
 
 #project-title {
     font-size: 100px;
-    margin: 5rem 0rem;
+    margin: 5rem 0rem 2rem 0rem;
 
 }
 
@@ -294,6 +295,7 @@ html {
 
 #skill-title {
     font-size: 100px;
+    padding-top: 5rem;
 }
 
 #skill-list {
@@ -448,7 +450,11 @@ footer {
     }
 
     .project-img {
-        height: 100px;
+        height: 85px;
+    }
+
+    #skill-title {
+        margin-top: 5rem;
     }
 
     #skill-section {
@@ -542,8 +548,14 @@ footer {
         height: 5rem;
     }
     
-    #name, #contact-title,  #about-title, #project-title, #skill-title {
+    #name {
         font-size: 3rem;
+    }
+
+    #contact-title,  #about-title, #project-title, #skill-title {
+        font-size: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
     }
 }
 
