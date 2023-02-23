@@ -480,7 +480,7 @@ footer {
     }
 
     #project-title {
-        font-size: 6rem;
+        font-size: 5rem;
         padding-bottom: .8rem;
     }
     
@@ -515,6 +515,11 @@ footer {
         padding: 6px;
     }
 
+    .skill-item {
+        padding: 0.5rem;
+        padding-top: 1rem;
+    }
+
     #nav-section {
         display: none;
     }
@@ -541,33 +546,25 @@ footer {
 
 @media (max-width:635px) {
     .project-img {
-        height: 6rem;
+        height: 5rem;
     }
-
+    
+    #name, #contact-title,  #about-title, #project-title, #skill-title {
+        font-size: 3rem;
+    }
 }
 
 
 @media (max-width:590px) {
 
     /* about */
-    #about-title {
-        font-size: 5rem;
-    }
 
     #about-paragraph {
         width: 90%;
     }
-
-    /* skill */
-
-    #skill-title {
-        font-size: 5rem;
+    
+    .project-img {
+        width: 100%;
     }
 
-    /* Contact */
-
-    #contact-title {
-        font-size: 5rem;
-    }
 }
-
